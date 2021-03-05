@@ -1,0 +1,52 @@
+/*Cabecera*/
+div header{
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/*Barrade navegación*/
+div nav ul li{
+    display: inline-block;
+}
+
+div nav{
+    text-align: center;
+}
+
+/*Enlaces*/
+#enlace:link, #enlace:visited{
+    color:black;
+}
+#enlace:hover, #enlace:active{
+    color:grey;
+    text-decoration: underline;
+}
+
+/*Texto*/
+#articulo{
+    text-align: center;
+}
+
+/*Imgenes*/
+div section #imagenes{
+    justify-content: center;
+}
+
+/*Pie de página
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}*/
+
+@media screen and (max-width: 600px){
+    #text{
+        font-size: 12px;
+    }
+}
