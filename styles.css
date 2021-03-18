@@ -53,6 +53,9 @@ footer{
     #text{
         font-size: 12px;
     }
+    #text1{
+        font-size: 0.7rem;
+    }
 }
 
 /*Tarjeta*/
